@@ -1,0 +1,59 @@
+.intro{
+    text-align: center;
+    margin-bottom: 3%;
+    padding-top: 3%;
+    color: rgb(0, 0, 0);
+}
+
+.wrapper {
+    background-image: url(/images/facility-wall.jpg);
+    position: relative;
+    background-size: cover;
+  }
+
+  .wrapper ::before {
+    content: "";
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+  }
+
+table {
+    width: 100%;
+      border-collapse: collapse;
+      color: rgb(0, 0, 0);
+}
+
+table tr td {
+    padding-top: 2%;
+    font-weight: 500;
+}
+
+table tr td:hover {
+    text-transform: capitalize;
+    transition: 0.2s ease;
+}
+
+table img {
+    width: 400px; /* Set the desired width for the images */
+    height: auto; /* This will maintain the aspect ratio */
+    border-radius: 3%
+}
+
+table img:hover{
+    border-radius: 10% 15%;
+    transition: 0.2s ease;
+    border: 2px solid white;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(34, 42, 49);
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    color: rgb(230, 230, 230);
+  }

@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("../images/image/contactback.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.contact-container {
+  display: flex;
+  margin: 50px;
+  background-color: rgba(245, 245, 245, 0.692);
+  border-radius: 15px;
+}
+
+.contact-form {
+  flex: 1;
+  padding: 50px 20% 50px 100px;
+}
+
+.contact-info {
+  flex: 1;
+  padding-left: 10px;
+  padding-top: 50px;
+}
+
+.contact-form h2,
+.contact-info h2 {
+  margin-bottom: 10px;
+}
+
+.contact-form form {
+  margin: 10px;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 5px;
+}
+.contact-form textarea {
+  width: 100%;
+  height: 150px; /* Increase the height as desired */
+  padding: 5px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #0e11d6b6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.contact-info p {
+  margin: 20px;
+}
+.contact-info strong {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+input[type="submit"]:hover {
+  background-color: #37383a;
+}
+
+.icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition-property: outline-offset, outline-color, background-color;
+  transition-duration: 0.25s;
+}
+.icon:hover {
+  outline-offset: 4px;
+  size: 50px;
+}
+.icon:hover {
+  animation: shake 0.25s;
+}
+@keyframes shake {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-15deg);
+  }
+  30% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-15deg);
+  }
+}
